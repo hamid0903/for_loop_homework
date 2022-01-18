@@ -7,6 +7,7 @@ def main(A,B):
     Returns:
         list: return  answer
     """
+    A-=1
     idx=[]
     for i in range(B,A,-1):
         idx.append(i)
