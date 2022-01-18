@@ -6,4 +6,9 @@ def main(n):
     Returns:
         string: return  answer
     """
-    return
+    idx=""
+    for i in range(n):
+        if i<n:
+            s=idx+str(i)
+    return (s)
+print(main(5))
