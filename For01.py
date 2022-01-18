@@ -1,4 +1,5 @@
 import py_compile
+from re import X
 
 
 def main(n):
@@ -9,4 +10,7 @@ def main(n):
     Returns:
         list: return  answer
     """
-    return
+    for i in range(n):
+        s=print(i)
+    return s
+print(main(10))
