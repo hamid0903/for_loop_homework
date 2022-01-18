@@ -8,8 +8,8 @@ def main(A,B):
         int: return  answer
     """
     idx=0
-    B+=1
+    
     for i in range(A,B):
         idx+=i
     return idx
-print(main(0,5))
+print(main(-6,8))
