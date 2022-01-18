@@ -10,7 +10,8 @@ def main(n):
     Returns:
         list: return  answer
     """
+    list1=[]
     for i in range(n):
-        s=print(i)
-    return s
+        list1.append(i)
+    return list1
 print(main(10))
